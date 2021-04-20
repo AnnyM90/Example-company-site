@@ -88,7 +88,7 @@ button {
 }
 
 .jumbotron {
-    background-image: url("assets/images/base.jpg");
+    background-image: url("../assets/images/base.jpg");
     background-color: var(--primary-blue);
     background-size: cover;
     background-position: center;
@@ -500,7 +500,7 @@ p.client-statement {
 
 section.contact-info {
     background-color: var(--black);
-    background-image: url("assets/images/layer_28.png");
+    background-image: url("../assets/images/layer_28.png");
     height: 695px;
     display: flex;
     background-size: cover;
