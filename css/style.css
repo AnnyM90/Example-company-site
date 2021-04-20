@@ -551,13 +551,13 @@ p.contact-info {
     color: var(--white);
     text-align: center;
     margin-right: 13px;
+    transition: var(--main-transition);
 }
 
 .social-media-icon:hover {
     background-color: white;
     transform: scale(1.2, 1.2);
     color: var(--black);
-    transition: var(--main-transition);
 }
 
 .social-media-icon i {
