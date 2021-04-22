@@ -88,7 +88,7 @@ button {
 }
 
 .jumbotron {
-    background-image: url("../assets/images/base.jpg");
+    background-image: url('../assets/images/base.jpg');
     background-color: var(--primary-blue);
     background-size: cover;
     background-position: center;
@@ -340,16 +340,27 @@ section.team {
     margin-bottom: 65px;
 }
 
+.team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .team-member-image-wrapper {
     width: 201px;
     height: 201px;
-    border-radius: 101px;
+    border-radius: 50%;
     background-color: #eeeef0;
-    transform: translate(26px, 4px);
+    overflow: hidden;
 }
 
 .team-member-image-wrapper img {
     border-radius: 50%;
+    transition: var(--main-transition);
+}
+
+.team-member-image-wrapper img:hover {
+    transform: scale(1.1);
 }
 
 .team-member-name,
@@ -500,7 +511,7 @@ p.client-statement {
 
 section.contact-info {
     background-color: var(--black);
-    background-image: url("../assets/images/layer_28.png");
+    background-image: url('../assets/images/layer_28.png');
     height: 695px;
     display: flex;
     background-size: cover;
@@ -556,7 +567,7 @@ p.contact-info {
 
 .social-media-icon:hover {
     background-color: white;
-    transform: scale(1.2, 1.2);
+    transform: scale(1.2);
     color: var(--black);
 }
 
