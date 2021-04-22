@@ -596,30 +596,25 @@ p.contact-info {
     display: flex;
 }
 
-.client-name-input {
-    width: 270px;
-    margin-bottom: 30px;
-    padding: 6px;
-    border-radius: 3px;
-    border-style: none;
-    padding: 10px 15px;
+.client-contact-form{
+    width:100%;
 }
 
-.client-e-mail-input {
-    width: 270px;
-    right: 50%;
+.client-contact-form-input{
     padding: 0 6px;
     border-radius: 3px;
     border-style: none;
     padding: 10px 15px;
+    width:100%;
+    margin-bottom: 30px;
 }
 
 .client-contact-form textarea {
-    width: 570px;
     height: 180px;
     margin-bottom: 30px;
     border-radius: 3px;
     padding: 15px 15px;
+    width: 100%;
 }
 
 .send-button-wrapper {
@@ -630,3 +625,5 @@ p.contact-info {
 .send-button {
     padding: 10px 45px;
 }
+
+    
